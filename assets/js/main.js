@@ -1,13 +1,17 @@
 $(document).ready( function(){
     
     // variable inits
-    let navOffset; //offsetTop of the nav wrapper
 
-    function setOffset(){ //calculate offset of nav wrapper and set navOffset
+    //offsetTop of the nav wrapper
+    let navOffset; 
+
+    //calculate offset of nav wrapper and set navOffset
+    function setOffset(){ 
         navOffset = $('.navwrap').offset().top;
     }
 
-    setOffset(); //run on document load
+    //run on document load
+    setOffset(); 
 
     $(window).resize( function(){
         setOffset(); //run again on every resize event
