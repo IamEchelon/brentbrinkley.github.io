@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="61px" height="61px" viewBox="0 0 61 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Brent + Oval 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="30.5" cy="30.5" r="30.5"></circle>
+    </defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Brent-+-Oval-13">
+            <g id="Brent">
+                <circle id="Oval-1" fill="#DFB28F" cx="30.5" cy="30.5" r="30.5"></circle>
+                <g id="Rectangle-1">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <rect fill="#000000" mask="url(#mask-2)" x="-15.1675676" y="-21.4324324" width="86.7189189" height="36.9297297"></rect>
+                    <rect id="Rectangle-2" fill="#000000" mask="url(#mask-2)" x="-4.28648649" y="13.5189189" width="14.1783784" height="11.2108108"></rect>
+                    <rect id="Rectangle-3" fill="#000000" mask="url(#mask-2)" x="51.1081081" y="13.5189189" width="14.1783784" height="11.2108108"></rect>
+                    <ellipse id="Oval-3" fill="#000000" mask="url(#mask-2)" cx="30.5" cy="61.8243243" rx="7.41891892" ry="6.42972973"></ellipse>
+                </g>
+            </g>
+            <path d="M20.8343513,45.8324324 C20.7937942,46.0489553 20.772973,46.2689886 20.772973,46.4918919 C20.772973,49.7697765 25.2755363,52.427027 30.8297297,52.427027 C36.3839231,52.427027 40.8864865,49.7697765 40.8864865,46.4918919 C40.8864865,46.2689886 40.8656653,46.0489553 40.8251081,45.8324324 L20.8343513,45.8324324 Z" id="Oval-13" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

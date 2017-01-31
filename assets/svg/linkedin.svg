@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="55px" height="55px" viewBox="0 0 55 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="27.5" cy="28.5" r="27.5"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="55" height="55" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-794.000000, -598.000000)">
+            <g id="linkedin" transform="translate(794.000000, 597.000000)">
+                <rect id="Rectangle" x="0" y="0" width="55" height="55"></rect>
+                <use id="Oval" stroke="#6D509B" mask="url(#mask-2)" stroke-width="1.03999996" xlink:href="#path-1"></use>
+                <path d="M15.6305856,23.0163913 L20.5032926,23.0163913 L20.5032926,39.9983993 L15.6305856,39.9983993 L15.6305856,23.0163913 Z M17.9427328,20.8922397 L17.9074553,20.8922397 C16.1435795,20.8922397 15,19.5940581 15,17.9501217 C15,16.2725701 16.1773871,15 17.9765405,15 C19.7742239,15 20.8795861,16.2693687 20.9148636,17.9453195 C20.9148636,19.589256 19.7742239,20.8922397 17.9427328,20.8922397 L17.9427328,20.8922397 Z M40,40 L34.474659,40 L34.474659,31.2104623 C34.474659,28.9102318 33.6103598,27.341529 31.7097836,27.341529 C30.256056,27.341529 29.4476129,28.399603 29.0713194,29.4224613 C28.9302093,29.7874248 28.9522578,30.2980535 28.9522578,30.810283 L28.9522578,40 L23.4783631,40 C23.4783631,40 23.5489182,24.4314253 23.4783631,23.0163913 L28.9522578,23.0163913 L28.9522578,25.6815854 C29.275635,24.5162633 31.0248119,22.8531182 33.8161453,22.8531182 C37.2792215,22.8531182 40,25.2974132 40,30.555769 L40,40 L40,40 Z" id="Shape" fill="#6D509B"></path>
+            </g>
+        </g>
+    </g>
+</svg>

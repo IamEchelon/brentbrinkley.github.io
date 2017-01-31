@@ -1,0 +1,149 @@
+// ——————————————————————————————————————————————————————————————————
+// Poster Image
+// ——————————————————————————————————————————————————————————————————
+
+.background
+    height: 100vh
+    background-image: url('/assets/img/business-wallpaper-13.jpg')
+    background-size: cover
+    background-attachment: fixed
+
+    
+    &:before
+        content: ''
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
+        background-image: linear-gradient(to bottom right, blue, purple)
+        opacity: .65 
+  
+
+
+// ——————————————————————————————————————————————————————————————————
+// Card
+// ——————————————————————————————————————————————————————————————————
+
+.card-wrapper
+    display: flex
+    justify-content: center
+    align-items: center
+    height: 100vh
+    overflow: hidden
+
+.card 
+    z-index: 1000
+    background-color: white
+    height: 400px
+    width: 350px
+    padding-top: 40px
+    text-align: center
+    border-radius: 5px
+
+    .profile-img
+        border-radius: 100px
+        width: 135px
+  
+
+    .name
+        margin-top: 41px
+        text-transform: uppercase
+        letter-spacing: 1px
+        font-family: 'Avenir Next'
+        color: $black
+        font-weight: 400
+        font-size: 22px
+        letter-spacing: .7px
+  
+    .profession
+        font-family: 'Avenir Next'
+        font-weight: 400
+        color: $black
+        font-size: 18px
+        margin-top: 10px
+        letter-spacing: 2px;
+  
+
+
+
+.card .flex-container
+    display: flex
+    justify-content: center
+    margin-top: 30px
+
+    img
+        margin: 0 15px
+    
+        &:hover
+            transition: opacity 0.4s ease;
+            opacity: .7
+
+
+// ——————————————————————————————————————————————————————————————————
+// navbar
+// ——————————————————————————————————————————————————————————————————
+
+.navbar
+    z-index: 1001
+    margin: auto
+    margin-bottom: 10px
+    width: 100% 
+    font-family: "Avenir Next"
+    font-weight: 300
+    position: absolute;
+    bottom: 0
+
+    // background-image: url('/assets/img/business-wallpaper-13.jpg')
+    // background-position: bottom
+    // background-attachment: fixed
+    
+
+    .logo
+        float: left
+        
+        img
+            width: 70%
+
+    .navlinks
+
+        float: right
+
+        ul
+            list-style: none 
+
+        li 
+            display: inline-block
+            margin-left: 30px
+        
+            a 
+                padding: 10px
+                text-decoration: none
+                text-align: right
+                list-style: none
+                color: white
+                position: relative
+            
+            // This creates the underline animation effect
+            a:before
+                content: ""
+                position: absolute
+                width: 100%
+                height: 1px
+                bottom: 0
+                left: 0
+                background-color: white
+                visibility: hidden
+                -webkit-transform: scaleX(0)
+                transform: scaleX(0)
+                -webkit-transition: all 0.2s ease-in-out 0s
+                transition: all 0.2s ease-in-out 0s
+            
+            a:hover:before
+                visibility: visible
+                -webkit-transform: scaleX(1)
+                transform: scaleX(1)
+            
+    
+
+
