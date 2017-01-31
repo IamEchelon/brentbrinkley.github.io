@@ -13,5 +13,15 @@ $(window).scroll(function(){
     });
 
     $(".card").css("opacity", 1.2 - wScroll / 300);
+
+    
+    navOffset = $('.navwrap').offset().top;
+    console.log(navOffset)
+
+    if(wScroll > navOffset){
+        // $( ".navwrap" ).removeClass( "navwrap" ).addClass( "fixed-nav" );
+        console.log('success is delicious');
+    }
+    
     
 });

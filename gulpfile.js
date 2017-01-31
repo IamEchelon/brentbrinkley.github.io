@@ -64,6 +64,8 @@ var utility      = require('gulp-util');
 
             .pipe(  plumber()  )
 
+            .pipe(autoprefixer())
+
             .pipe(  sourcemaps.write()  )
             .pipe(  gulp.dest('assets/')  )
             .pipe(  browserSync.stream()  );
